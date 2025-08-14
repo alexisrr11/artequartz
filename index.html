@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marmolería — Catálogo</title>
+  <meta name="color-scheme" content="light dark" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Evita el salto al ocultar la barra de scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-neutral-50 text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100">
+  <!-- Header con video full-screen (100vh) -->
+  <header class="relative min-h-screen">
+    <!-- Video de fondo -->
+    <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline
+      poster="assets/portada.jpg">
+      <!-- Reemplaza la ruta por tu video .mp4 -->
+      <source src="./images/Video de WhatsApp 2025-08-13 a las 12.38.33_0e21271a.mp4" type="video/mp4" />
+      Tu navegador no soporta videos HTML5.
+    </video>
+
+    <!-- Capa oscura para legibilidad del texto -->
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <!-- Navbar superpuesta -->
+    <nav class="absolute top-0 left-0 right-0 z-20">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="#" class="text-white font-semibold tracking-wide text-lg">Marmolería Artequartz</a>
+        <ul class="hidden md:flex items-center gap-6 text-white/90">
+          <li><a class="hover:text-white" href="#productos">Productos</a></li>
+          <li><a class="hover:text-white" href="#trabajos">Trabajos</a></li>
+          <li><a class="hover:text-white" href="#contacto">Contacto</a></li>
+        </ul>
+        <a href="#contacto"
+          class="hidden md:inline-flex rounded-2xl bg-white/95 px-4 py-2 text-sm font-medium text-neutral-900 shadow-sm hover:bg-white">Pedir
+          presupuesto</a>
+        <button class="md:hidden text-white/90" aria-label="Abrir menú"
+          onclick="document.getElementById('mobileMenu').classList.toggle('hidden')">☰</button>
+      </div>
+      <!-- Menú móvil -->
+      <div id="mobileMenu" class="hidden md:hidden bg-black/60 backdrop-blur text-white">
+        <div class="max-w-6xl mx-auto px-4 py-4 space-y-4">
+          <a class="block" href="#productos" onclick="this.closest('#mobileMenu').classList.add('hidden')">Productos</a>
+          <a class="block" href="#trabajos" onclick="this.closest('#mobileMenu').classList.add('hidden')">Trabajos</a>
+          <a class="block" href="#contacto" onclick="this.closest('#mobileMenu').classList.add('hidden')">Contacto</a>
+          <a class="inline-flex rounded-2xl bg-white/95 px-4 py-2 text-sm font-medium text-neutral-900 shadow-sm hover:bg-white"
+            href="#contacto" onclick="this.closest('#mobileMenu').classList.add('hidden')">Pedir presupuesto</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero content -->
+    <div class="relative z-10 min-h-screen flex items-center">
+      <div class="max-w-6xl mx-auto px-4">
+        <h1 class="text-white drop-shadow-sm text-4xl md:text-6xl font-bold leading-tight">
+          Piedras naturales y superficies a medida
+        </h1>
+        <p class="text-white/90 mt-4 max-w-xl text-lg">
+          Mesadas, revestimientos y escaleras en mármol, granito, cuarzo y más. Medición, corte e instalación
+          profesional.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#productos"
+            class="inline-flex items-center justify-center rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-neutral-900 shadow hover:bg-neutral-100">
+            Ver catálogo
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener"
+            class="inline-flex items-center justify-center rounded-2xl ring-1 ring-white/70 px-5 py-3 text-sm font-semibold text-white hover:bg-white/10">
+            Instagram
+          </a>
+
+        </div>
+      </div>
+    </div>
+    <a href="https://wa.me/5491137659081" target="_blank" rel="noopener" class="fixed bottom-6 right-6 z-20">
+      <i class='bx bxl-whatsapp bg-green-500 rounded-full p-2 text-4xl'></i>
+    </a>
+
+  </header>
+
+  <main>
+    <!-- Sección: Productos -->
+    <section id="productos" class="py-16 md:py-20">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold">Catálogo</h2>
+            <p class="text-neutral-600 dark:text-neutral-400 mt-1">Mármoles, granitos y superficies sintéticas más
+              solicitadas.</p>
+          </div>
+          <!-- Chips de categorías (sin JS obligatorio) -->
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm">Mármol</span>
+            <span
+              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm">Granito</span>
+            <span
+              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm">Cuarzo</span>
+            <span
+              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm">Porcelánico</span>
+          </div>
+        </div>
+
+        <!-- Grid de productos -->
+        <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- Card producto -->
+          <article
+            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
+            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
+              <img src="https://marmoles.mx/3250-superlarge_default/marmol_blanco_carrara_lamina_extra_seleccionado.jpg"
+                alt="Mármol Carrara" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold">Mármol Carrara</h3>
+              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado pulido · Espesor 2 cm</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-sm text-neutral-500">Por m²</span>
+                <a href="#contacto"
+                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
+            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
+              <img
+                src="https://www.encimerasmalaga.es/wp-content/uploads/2023/01/muestra-granito-negro-absoluto-pulido.jpg"
+                alt="Granito Negro Absoluto"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold">Granito Negro Absoluto</h3>
+              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado mate · Espesor 3 cm</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-sm text-neutral-500">Por m²</span>
+                <a href="#contacto"
+                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
+            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
+              <img src="https://es.kjlquartzstone.com/uploads/202134271/arctic-white-quartz38406250198.jpg"
+                alt="Cuarzo Blanco Ártico"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold">Cuarzo Blanco Ártico</h3>
+              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado pulido · Espesor 2 cm</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-sm text-neutral-500">Por m²</span>
+                <a href="#contacto"
+                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Más ítems de ejemplo -->
+          <article
+            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
+            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
+              <img src="https://image.architonic.com/pro2-3/20116419/calacata-gold-120x120-pro-b-arcit18.jpg"
+                alt="Porcelánico Calacatta"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold">Porcelánico Calacatta</h3>
+              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado satinado · Espesor 12 mm</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-sm text-neutral-500">Por m²</span>
+                <a href="#contacto"
+                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
+            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
+              <img src="https://marmoles.mx/4242-superlarge_default/granito_gris_oxford_flameado_60x60x15.jpg"
+                alt="Granito Gris Perla"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold">Granito Gris Perla</h3>
+              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado flameado · Espesor 3 cm</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-sm text-neutral-500">Por m²</span>
+                <a href="#contacto"
+                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
+              </div>
+            </div>
+          </article>
+
+          <article
+            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
+            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
+              <img src="https://www.pulidodepisos.com.mx/wp-content/uploads/2019/02/marmol-travertino.jpg"
+                alt="Mármol Travertino" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+            </div>
+            <div class="p-4">
+              <h3 class="font-semibold">Mármol Travertino</h3>
+              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado apomazado · Espesor 2 cm</p>
+              <div class="mt-3 flex items-center justify-between">
+                <span class="text-sm text-neutral-500">Por m²</span>
+                <a href="#contacto"
+                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Nota de trabajos a medida -->
+        <div
+          class="mt-8 rounded-2xl bg-neutral-100 dark:bg-neutral-900 p-4 text-sm text-neutral-700 dark:text-neutral-300">
+          Todos los trabajos son a medida. Incluye medición y colocación opcional. Consultá por zócalos, bachas, cortes
+          especiales y terminaciones.
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Trabajos (galería) -->
+    <section id="trabajos" class="py-16 md:py-20 bg-neutral-100 dark:bg-neutral-900">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="flex items-end justify-between">
+          <h2 class="text-2xl md:text-3xl font-bold">Trabajos recientes</h2>
+          <a href="#contacto" class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Quiero algo
+            así</a>
+        </div>
+        <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <img class="w-full h-64 object-cover rounded-2xl"
+            src="https://destefanomarmoles.com/wp-content/uploads/2023/02/021h_mesada_cocina_con_regrueso_en_perimetro-mamol_carrara-980x651.jpg"
+            alt="Mesada en mármol" />
+          <img class="w-full h-64 object-cover rounded-2xl"
+            src="https://img.freepik.com/fotos-premium/cocinas-isla-cuarzo_883586-29652.jpg"
+            alt="Isla de cocina en cuarzo" />
+          <img class="w-full h-64 object-cover rounded-2xl"
+            src="https://stonesizepanels.com/wp-content/uploads/2021/03/villa_x_1.jpg" alt="Revestimiento de baño" />
+          <img class="w-full h-64 object-cover rounded-2xl"
+            src="https://i.pinimg.com/736x/35/30/9d/35309d6284eeb1a3281d772b1b555709.jpg" alt="Escalera en granito" />
+          <img class="w-full h-64 object-cover rounded-2xl"
+            src="https://www.dmarmol.com.mx/wp-content/uploads/2023/08/COCINA-EBONY-CRISTAL-CON-MARMOL-ARABESCATO2.jpeg"
+            alt="Barra de cocina" />
+          <img class="w-full h-64 object-cover rounded-2xl"
+            src="https://tbmarmoresegranitos.com.br/wp-content/uploads/2023/02/TAMPO-EM-PORCELANATO-CALACATA-768x576.jpg"
+            alt="Mesada con bacha" />
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16">
+      <div class="max-w-6xl mx-auto px-4">
+        <div
+          class="rounded-3xl bg-gradient-to-r from-neutral-900 to-neutral-700 text-white p-8 md:p-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div>
+            <h3 class="text-2xl font-semibold">¿Necesitás presupuesto rápido?</h3>
+            <p class="text-white/80 mt-1">Enviá medidas aproximadas y fotos del espacio. Respondemos en el día hábil.
+            </p>
+          </div>
+          <a href="#contacto"
+            class="inline-flex items-center justify-center rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-neutral-900 shadow hover:bg-neutral-100">Contactar
+            ahora</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Contacto -->
+    <section id="contacto" class="py-16 md:py-20">
+      <div class="max-w-6xl mx-auto px-4 grid gap-10 md:grid-cols-2">
+        <div>
+          <h2 class="text-2xl md:text-3xl font-bold">Contacto</h2>
+          <p class="mt-2 text-neutral-600 dark:text-neutral-400">Atendemos en toda el AMBA. Taller y exposición en Av.
+            Siempreviva 123, CABA.</p>
+
+          <div class="mt-6 space-y-3 text-sm">
+            <p><strong>Tel/WhatsApp:</strong> <a class="underline" href="https://wa.me/5491100000000" target="_blank"
+                rel="noopener">+54 9 11 0000-0000</a></p>
+            <p><strong>Email:</strong> <a class="underline"
+                href="mailto:ventas@marmoleria.com">ventas@marmoleria.com</a></p>
+            <p><strong>Horarios:</strong> Lun a Vie 9–18 h · Sáb 9–13 h</p>
+          </div>
+
+          <form class="mt-8 space-y-4">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div>
+                <label class="block text-sm mb-1" for="nombre">Nombre</label>
+                <input id="nombre" name="nombre" type="text"
+                  class="w-full rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-3 py-2"
+                  placeholder="Tu nombre" />
+              </div>
+              <div>
+                <label class="block text-sm mb-1" for="telefono">Teléfono</label>
+                <input id="telefono" name="telefono" type="tel"
+                  class="w-full rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-3 py-2"
+                  placeholder="Ej: 11 1234-5678" />
+              </div>
+            </div>
+            <div>
+              <label class="block text-sm mb-1" for="mensaje">Detalles del trabajo</label>
+              <textarea id="mensaje" name="mensaje" rows="4"
+                class="w-full rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-3 py-2"
+                placeholder="Medidas aproximadas, material preferido..."></textarea>
+            </div>
+            <button type="submit"
+              class="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-semibold hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200">Enviar
+              consulta</button>
+          </form>
+        </div>
+
+        <div class="rounded-2xl overflow-hidden ring-1 ring-neutral-200 dark:ring-neutral-800 min-h-[340px]">
+          <!-- Reemplaza el src del iframe por tu mapa de Google -->
+          <iframe title="Mapa" class="w-full h-full min-h-[340px]"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.485801268217!2d-58.38061002453229!3d-34.768543612992445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3332cd5a765%3A0x267ad80569124ba3!2sMarmoleria%20Arte%20Quartz!5e0!3m2!1ses!2sar!4v1755126752562!5m2!1ses!2sar"
+            loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-10 border-t border-neutral-200 dark:border-neutral-800">
+    <div
+      class="max-w-6xl mx-auto px-4 text-sm text-neutral-600 dark:text-neutral-400 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p>© <span id="year"></span> Marmolería artequartz. Todos los derechos reservados.</p>
+      <p>Hecho por <a class="underline" href="#" target="_blank" rel="noopener">Devxis Desing</a>.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Año dinámico en el footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
