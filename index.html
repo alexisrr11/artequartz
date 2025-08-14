@@ -297,30 +297,31 @@
             <p><strong>Horarios:</strong> Lun a Vie 9–18 h · Sáb 9–13 h</p>
           </div>
 
-          <form class="mt-8 space-y-4">
+          <form id="formWhatsApp" class="mt-8 space-y-4">
             <div class="grid gap-4 sm:grid-cols-2">
               <div>
                 <label class="block text-sm mb-1" for="nombre">Nombre</label>
-                <input id="nombre" name="nombre" type="text"
+                <input id="nombre" name="nombre" type="text" required
                   class="w-full rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-3 py-2"
                   placeholder="Tu nombre" />
               </div>
               <div>
-                <label class="block text-sm mb-1" for="telefono">Teléfono</label>
-                <input id="telefono" name="telefono" type="tel"
+                <label class="block text-sm mb-1" for="material">Material preferido</label>
+                <input id="material" name="material" type="text" required
                   class="w-full rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-3 py-2"
-                  placeholder="Ej: 11 1234-5678" />
+                  placeholder="Mármol Carrara" />
               </div>
             </div>
             <div>
               <label class="block text-sm mb-1" for="mensaje">Detalles del trabajo</label>
-              <textarea id="mensaje" name="mensaje" rows="4"
+              <textarea id="mensaje" name="mensaje" rows="4" required
                 class="w-full rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-3 py-2"
-                placeholder="Medidas aproximadas, material preferido..."></textarea>
+                placeholder="Medidas aproximadas, Cantidad de material..."></textarea>
             </div>
             <button type="submit"
-              class="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-semibold hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200">Enviar
-              consulta</button>
+              class="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-semibold hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200">
+              Enviar consulta
+            </button>
           </form>
         </div>
 
@@ -363,8 +364,21 @@
         });
       });
     });
+
+    //Envio de consulta por whatsapp
+    document.getElementById("formWhatsApp").addEventListener("submit", function (e) {
+      e.preventDefault();
+      
+      const numeroWhatsApp = "5491160567581";
+      const nombre = document.getElementById("nombre").value;
+      const material = document.getElementById("material").value;
+      const mensaje = document.getElementById("mensaje").value;
+      const texto = `Hola, soy ${nombre}. Quisiera saber más acerca del ${material}. Consulta - Detalles: ${mensaje}`;
+      const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
+
+      window.open(url, "_blank");
+    })
   </script>
 </body>
 
 </html>
-
