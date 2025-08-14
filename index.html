@@ -17,23 +17,18 @@
 </head>
 
 <body class="bg-neutral-50 text-neutral-900 antialiased dark:bg-neutral-950 dark:text-neutral-100">
-  <!-- Header con video full-screen (100vh) -->
   <header class="relative min-h-screen">
-    <!-- Video de fondo -->
     <video class="absolute inset-0 w-full h-full object-cover" autoplay muted loop playsinline
       poster="assets/portada.jpg">
-      <!-- Reemplaza la ruta por tu video .mp4 -->
       <source src="./images/Video de WhatsApp 2025-08-13 a las 12.38.33_0e21271a.mp4" type="video/mp4" />
       Tu navegador no soporta videos HTML5.
     </video>
 
-    <!-- Capa oscura para legibilidad del texto -->
     <div class="absolute inset-0 bg-black/50"></div>
 
-    <!-- Navbar superpuesta -->
     <nav class="absolute top-0 left-0 right-0 z-20">
       <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="#" class="text-white font-semibold tracking-wide text-lg">Marmolería Artequartz</a>
+        <a href="#" class="text-white font-semibold tracking-wide text-2xl">Marmolería Artequartz</a>
         <ul class="hidden md:flex items-center gap-6 text-white/90">
           <li><a class="hover:text-white" href="#productos">Productos</a></li>
           <li><a class="hover:text-white" href="#trabajos">Trabajos</a></li>
@@ -42,10 +37,9 @@
         <a href="#contacto"
           class="hidden md:inline-flex rounded-2xl bg-white/95 px-4 py-2 text-sm font-medium text-neutral-900 shadow-sm hover:bg-white">Pedir
           presupuesto</a>
-        <button class="md:hidden text-white/90" aria-label="Abrir menú"
+        <button class="md:hidden text-white text-2xl" aria-label="Abrir menú"
           onclick="document.getElementById('mobileMenu').classList.toggle('hidden')">☰</button>
       </div>
-      <!-- Menú móvil -->
       <div id="mobileMenu" class="hidden md:hidden bg-black/60 backdrop-blur text-white">
         <div class="max-w-6xl mx-auto px-4 py-4 space-y-4">
           <a class="block" href="#productos" onclick="this.closest('#mobileMenu').classList.add('hidden')">Productos</a>
@@ -80,7 +74,7 @@
         </div>
       </div>
     </div>
-    <a href="https://wa.me/5491137659081" target="_blank" rel="noopener" class="fixed bottom-6 right-6 z-20">
+    <a href="https://wa.me/5491160567581" target="_blank" rel="noopener" class="fixed bottom-6 right-6 z-20">
       <i class='bx bxl-whatsapp bg-green-500 rounded-full p-2 text-4xl'></i>
     </a>
 
@@ -96,16 +90,28 @@
             <p class="text-neutral-600 dark:text-neutral-400 mt-1">Mármoles, granitos y superficies sintéticas más
               solicitadas.</p>
           </div>
-          <!-- Chips de categorías (sin JS obligatorio) -->
+          <!-- Chips de categorías -->
           <div class="flex flex-wrap gap-2">
-            <span
-              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm">Mármol</span>
-            <span
-              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm">Granito</span>
-            <span
-              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm">Cuarzo</span>
-            <span
-              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm">Porcelánico</span>
+            <button data-filter="Mármol"
+              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
+              Mármol
+            </button>
+            <button data-filter="Granito"
+              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
+              Granito
+            </button>
+            <button data-filter="Cuarzo"
+              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
+              Cuarzo
+            </button>
+            <button data-filter="Porcelánico"
+              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
+              Porcelánico
+            </button>
+            <button data-filter="all"
+              class="inline-flex items-center rounded-full border border-blue-500 text-blue-500 px-3 py-1 text-sm hover:bg-blue-100 dark:hover:bg-blue-900">
+              Todos
+            </button>
           </div>
         </div>
 
@@ -166,7 +172,6 @@
             </div>
           </article>
 
-          <!-- Más ítems de ejemplo -->
           <article
             class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
             <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
@@ -269,7 +274,7 @@
             <p class="text-white/80 mt-1">Enviá medidas aproximadas y fotos del espacio. Respondemos en el día hábil.
             </p>
           </div>
-          <a href="#contacto"
+          <a href="https://wa.me/5491160567581"
             class="inline-flex items-center justify-center rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-neutral-900 shadow hover:bg-neutral-100">Contactar
             ahora</a>
         </div>
@@ -282,11 +287,11 @@
         <div>
           <h2 class="text-2xl md:text-3xl font-bold">Contacto</h2>
           <p class="mt-2 text-neutral-600 dark:text-neutral-400">Atendemos en toda el AMBA. Taller y exposición en Av.
-            Siempreviva 123, CABA.</p>
+            Eva Perón 1542</p>
 
           <div class="mt-6 space-y-3 text-sm">
-            <p><strong>Tel/WhatsApp:</strong> <a class="underline" href="https://wa.me/5491100000000" target="_blank"
-                rel="noopener">+54 9 11 0000-0000</a></p>
+            <p><strong>Tel/WhatsApp:</strong> <a class="underline" href="https://wa.me/5491160567581" target="_blank"
+                rel="noopener">+54 9 11 6056-7581</a></p>
             <p><strong>Email:</strong> <a class="underline"
                 href="mailto:ventas@marmoleria.com">ventas@marmoleria.com</a></p>
             <p><strong>Horarios:</strong> Lun a Vie 9–18 h · Sáb 9–13 h</p>
@@ -320,7 +325,6 @@
         </div>
 
         <div class="rounded-2xl overflow-hidden ring-1 ring-neutral-200 dark:ring-neutral-800 min-h-[340px]">
-          <!-- Reemplaza el src del iframe por tu mapa de Google -->
           <iframe title="Mapa" class="w-full h-full min-h-[340px]"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3277.485801268217!2d-58.38061002453229!3d-34.768543612992445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd3332cd5a765%3A0x267ad80569124ba3!2sMarmoleria%20Arte%20Quartz!5e0!3m2!1ses!2sar!4v1755126752562!5m2!1ses!2sar"
             loading="lazy"></iframe>
@@ -340,6 +344,25 @@
   <script>
     // Año dinámico en el footer
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    //Filtro para catalogo
+    const filterButtons = document.querySelectorAll('[data-filter]');
+    const products = document.querySelectorAll('.mt-8 article');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter.toLowerCase();
+
+        products.forEach(product => {
+          const altText = product.querySelector('img').alt.toLowerCase();
+          if (filter === 'all' || altText.includes(filter)) {
+            product.style.display = '';
+          } else {
+            product.style.display = 'none';
+          }
+        });
+      });
+    });
   </script>
 </body>
 
