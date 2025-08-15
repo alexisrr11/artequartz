@@ -1,0 +1,38 @@
+[
+  {
+    "nombre": "Mármol Carrara",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://marmoles.mx/3250-superlarge_default/marmol_blanco_carrara_lamina_extra_seleccionado.jpg"
+  },
+  {
+    "nombre": "Granito Negro Absoluto",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://www.encimerasmalaga.es/wp-content/uploads/2023/01/muestra-granito-negro-absoluto-pulido.jpg"
+  },
+  {
+    "nombre": "Cuarzo Blanco Ártico",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://es.kjlquartzstone.com/uploads/202134271/arctic-white-quartz38406250198.jpg"
+  },
+  {
+    "nombre": "Porcelánico Calacatta",
+    "descripcion": "Terminado satinado · Espesor 12 mm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://image.architonic.com/pro2-3/20116419/calacata-gold-120x120-pro-b-arcit18.jpg"
+  },
+  {
+    "nombre": "Granito Gris Perla",
+    "descripcion": "Terminado flameado · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://marmoles.mx/4242-superlarge_default/granito_gris_oxford_flameado_60x60x15.jpg"
+  },
+  {
+    "nombre": "Mármol Travertino",
+    "descripcion": "Terminado apomazado · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://www.pulidodepisos.com.mx/wp-content/uploads/2019/02/marmol-travertino.jpg"
+  }
+]

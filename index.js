@@ -1,0 +1,40 @@
+// Año dinámico en el footer
+document.getElementById('year').textContent = new Date().getFullYear();
+
+//Filtro para catalogo
+// Botones de filtro
+const filterButtons = document.querySelectorAll('[data-filter]');
+const contenedor = document.getElementById('contenedorProductos');
+
+filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter.toLowerCase();
+
+        // Obtener los productos actualizados del DOM
+        const products = contenedor.querySelectorAll('article');
+
+        products.forEach(product => {
+            const altText = product.querySelector('img').alt.toLowerCase();
+            if (filter === 'all' || altText.includes(filter)) {
+                product.style.display = '';
+            } else {
+                product.style.display = 'none';
+            }
+        });
+    });
+});
+
+
+//Envio de consulta por whatsapp
+document.getElementById("formWhatsApp").addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const numeroWhatsApp = "5491160567581";
+    const nombre = document.getElementById("nombre").value;
+    const material = document.getElementById("material").value;
+    const mensaje = document.getElementById("mensaje").value;
+    const texto = `Hola, soy ${nombre}. Quisiera saber más acerca del ${material}. Consulta - Detalles: ${mensaje}`;
+    const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
+
+    window.open(url, "_blank");
+})

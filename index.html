@@ -8,6 +8,8 @@
   <meta name="color-scheme" content="light dark" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="./index.js"></script>
+  <script type="module" src="./productos.js"></script>
   <style>
     /* Evita el salto al ocultar la barra de scroll */
     html {
@@ -116,114 +118,8 @@
         </div>
 
         <!-- Grid de productos -->
-        <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          <!-- Card producto -->
-          <article
-            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
-            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
-              <img src="https://marmoles.mx/3250-superlarge_default/marmol_blanco_carrara_lamina_extra_seleccionado.jpg"
-                alt="Mármol Carrara" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-            </div>
-            <div class="p-4">
-              <h3 class="font-semibold">Mármol Carrara</h3>
-              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado pulido · Espesor 2 cm</p>
-              <div class="mt-3 flex items-center justify-between">
-                <span class="text-sm text-neutral-500">Por m²</span>
-                <a href="#contacto"
-                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
-            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
-              <img
-                src="https://www.encimerasmalaga.es/wp-content/uploads/2023/01/muestra-granito-negro-absoluto-pulido.jpg"
-                alt="Granito Negro Absoluto"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-            </div>
-            <div class="p-4">
-              <h3 class="font-semibold">Granito Negro Absoluto</h3>
-              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado mate · Espesor 3 cm</p>
-              <div class="mt-3 flex items-center justify-between">
-                <span class="text-sm text-neutral-500">Por m²</span>
-                <a href="#contacto"
-                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
-            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
-              <img src="https://es.kjlquartzstone.com/uploads/202134271/arctic-white-quartz38406250198.jpg"
-                alt="Cuarzo Blanco Ártico"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-            </div>
-            <div class="p-4">
-              <h3 class="font-semibold">Cuarzo Blanco Ártico</h3>
-              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado pulido · Espesor 2 cm</p>
-              <div class="mt-3 flex items-center justify-between">
-                <span class="text-sm text-neutral-500">Por m²</span>
-                <a href="#contacto"
-                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
-            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
-              <img src="https://image.architonic.com/pro2-3/20116419/calacata-gold-120x120-pro-b-arcit18.jpg"
-                alt="Porcelánico Calacatta"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-            </div>
-            <div class="p-4">
-              <h3 class="font-semibold">Porcelánico Calacatta</h3>
-              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado satinado · Espesor 12 mm</p>
-              <div class="mt-3 flex items-center justify-between">
-                <span class="text-sm text-neutral-500">Por m²</span>
-                <a href="#contacto"
-                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
-            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
-              <img src="https://marmoles.mx/4242-superlarge_default/granito_gris_oxford_flameado_60x60x15.jpg"
-                alt="Granito Gris Perla"
-                class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-            </div>
-            <div class="p-4">
-              <h3 class="font-semibold">Granito Gris Perla</h3>
-              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado flameado · Espesor 3 cm</p>
-              <div class="mt-3 flex items-center justify-between">
-                <span class="text-sm text-neutral-500">Por m²</span>
-                <a href="#contacto"
-                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
-              </div>
-            </div>
-          </article>
-
-          <article
-            class="group rounded-2xl overflow-hidden bg-white dark:bg-neutral-900 ring-1 ring-neutral-200 dark:ring-neutral-800 hover:shadow-md transition-shadow">
-            <div class="aspect-[4/3] bg-neutral-200 dark:bg-neutral-800 overflow-hidden">
-              <img src="https://www.pulidodepisos.com.mx/wp-content/uploads/2019/02/marmol-travertino.jpg"
-                alt="Mármol Travertino" class="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-            </div>
-            <div class="p-4">
-              <h3 class="font-semibold">Mármol Travertino</h3>
-              <p class="text-sm text-neutral-600 dark:text-neutral-400">Terminado apomazado · Espesor 2 cm</p>
-              <div class="mt-3 flex items-center justify-between">
-                <span class="text-sm text-neutral-500">Por m²</span>
-                <a href="#contacto"
-                  class="text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline">Consultar</a>
-              </div>
-            </div>
-          </article>
+        <div id="contenedorProductos" class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <!-- producto -->
         </div>
 
         <!-- Nota de trabajos a medida -->
@@ -274,7 +170,7 @@
             <p class="text-white/80 mt-1">Enviá medidas aproximadas y fotos del espacio. Respondemos en el día hábil.
             </p>
           </div>
-          <a href="https://wa.me/5491160567581"
+          <a href="#contacto"
             class="inline-flex items-center justify-center rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-neutral-900 shadow hover:bg-neutral-100">Contactar
             ahora</a>
         </div>
@@ -309,7 +205,7 @@
                 <label class="block text-sm mb-1" for="material">Material preferido</label>
                 <input id="material" name="material" type="text" required
                   class="w-full rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-3 py-2"
-                  placeholder="Ej:'Mármol Carrara'" />
+                  placeholder="Ej: 'Mármol Carrara'" />
               </div>
             </div>
             <div>
@@ -341,45 +237,6 @@
       <p>Hecho por <a class="underline" href="#" target="_blank" rel="noopener">Devxis Desing</a>.</p>
     </div>
   </footer>
-
-  <script>
-    // Año dinámico en el footer
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    //Filtro para catalogo
-    const filterButtons = document.querySelectorAll('[data-filter]');
-    const products = document.querySelectorAll('.mt-8 article');
-
-    filterButtons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const filter = btn.dataset.filter.toLowerCase();
-
-        products.forEach(product => {
-          const altText = product.querySelector('img').alt.toLowerCase();
-          if (filter === 'all' || altText.includes(filter)) {
-            product.style.display = '';
-          } else {
-            product.style.display = 'none';
-          }
-        });
-      });
-    });
-
-    //Envio de consulta por whatsapp
-    document.getElementById("formWhatsApp").addEventListener("submit", function (e) {
-      e.preventDefault();
-      
-      const numeroWhatsApp = "5491160567581";
-      const nombre = document.getElementById("nombre").value;
-      const material = document.getElementById("material").value;
-      const mensaje = document.getElementById("mensaje").value;
-      const texto = `Hola, soy ${nombre}. Quisiera saber más acerca del ${material}. Consulta - Detalles: ${mensaje}`;
-      const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
-
-      window.open(url, "_blank");
-    })
-  </script>
 </body>
 
 </html>
-
