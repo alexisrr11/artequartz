@@ -1,38 +1,415 @@
 [
   {
-    "nombre": "Mármol Carrara",
+    "nombre": "Arabescato",
     "descripcion": "Terminado pulido · Espesor 2 cm",
     "precioUnidad": "Por m²",
-    "imagen": "https://marmoles.mx/3250-superlarge_default/marmol_blanco_carrara_lamina_extra_seleccionado.jpg"
+    "imagen": "https://artequartz.net/img/secciones/marmol/Arabescato.jpeg",
+    "categoria": "Mármol"
   },
   {
-    "nombre": "Granito Negro Absoluto",
+    "nombre": "Beige Sahara",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Beige%20Sahara.jpg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Blanco Royal",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Blanco_Royal.jpeg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Botticino",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Botticino.jpg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Carrara",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Carrara.jpg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Crema Marfil",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Crema%20Marfil.png",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Desert Brown",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Desert-Brown.jpg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Goflan Silver",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Goflan%20Silver.png",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Marron Imperial",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Marron%20Imperial.png",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Marrón Bosque",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Marr%C3%B3n%20Bosque.png",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Negro Marquina",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Negro%20Marquina.png",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Perlino Rosato",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Perlino%20Rosato.jpg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Travertino Agua",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Travertino%20Agua.jpg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Travertino Veta",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Travertino%20Veta.jpg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Tundra Grey",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Tundra%20Grey.jpg",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Verde Alpe",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Verde%20Alpe.png",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Verde Oriental",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/marmol/Verde%20Oriental.png",
+    "categoria": "Mármol"
+  },
+  {
+    "nombre": "Alpinus",
     "descripcion": "Terminado mate · Espesor 3 cm",
     "precioUnidad": "Por m²",
-    "imagen": "https://www.encimerasmalaga.es/wp-content/uploads/2023/01/muestra-granito-negro-absoluto-pulido.jpg"
+    "imagen": "https://artequartz.net/img/secciones/granito/Alpinus.jpg",
+    "categoria": "Granito"
   },
   {
-    "nombre": "Cuarzo Blanco Ártico",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "nombre": "Azul Labrador",
+    "descripcion": "Terminado mate · Espesor 3 cm",
     "precioUnidad": "Por m²",
-    "imagen": "https://es.kjlquartzstone.com/uploads/202134271/arctic-white-quartz38406250198.jpg"
+    "imagen": "https://artequartz.net/img/secciones/granito/Azul%20Labrador.jpg",
+    "categoria": "Granito"
   },
   {
-    "nombre": "Porcelánico Calacatta",
-    "descripcion": "Terminado satinado · Espesor 12 mm",
+    "nombre": "Blanco Fortaleza",
+    "descripcion": "Terminado mate · Espesor 3 cm",
     "precioUnidad": "Por m²",
-    "imagen": "https://image.architonic.com/pro2-3/20116419/calacata-gold-120x120-pro-b-arcit18.jpg"
+    "imagen": "https://artequartz.net/img/secciones/granito/Blanco%20Fortaleza.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Coffe Brown",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Coffe%20Brown.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Delicatus",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Delicatus.png",
+    "categoria": "Granito"
   },
   {
     "nombre": "Granito Gris Perla",
     "descripcion": "Terminado flameado · Espesor 3 cm",
     "precioUnidad": "Por m²",
-    "imagen": "https://marmoles.mx/4242-superlarge_default/granito_gris_oxford_flameado_60x60x15.jpg"
+    "imagen": "https://marmoles.mx/4242-superlarge_default/granito_gris_oxford_flameado_60x60x15.jpg",
+    "categoria": "Granito"
   },
   {
-    "nombre": "Mármol Travertino",
-    "descripcion": "Terminado apomazado · Espesor 2 cm",
+    "nombre": "Gris Mara",
+    "descripcion": "Terminado mate · Espesor 3 cm",
     "precioUnidad": "Por m²",
-    "imagen": "https://www.pulidodepisos.com.mx/wp-content/uploads/2019/02/marmol-travertino.jpg"
+    "imagen": "https://artequartz.net/img/secciones/granito/Gris%20Mara.jpeg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Gris Perla",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Gris%20Perla.png",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Kashmir White",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Kashmir%20White.png",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Negro Absoluto",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Negro%20Absoluto.png",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Negro Boreal",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Negro%20Boreal.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Negro Brasil",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Negro%20Brasil.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Patagonia Golden",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Patagonia%20Golden.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Rosa del Salto",
+    "descripcion": "Terminado flameado · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Rosa%20del%20Salto.png",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "San Felipe",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/San%20Felipe.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "San Felipe",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/San%20Felipe.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Santa Cecilia",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Santa%20Cecilia.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Sierra chica",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Sierra%20chica.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Verde Ubatuba",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/granito/Verde%20Ubatuba.jpg",
+    "categoria": "Granito"
+  },
+  {
+    "nombre": "Allure",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Allure.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Amazonite",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Amazonite.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Avocatus",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Avocatus.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Blue Roma",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Blue%20Roma.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Bronzite",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Bronzite.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Black Salinas",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Black%20Salinas.png",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "CYGNUS",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/CYGNUS.png",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Cuarcita Adamantium",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Cuarcita%20Adamantium.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Cuarzo Blanco Ártico",
+    "descripcion": "Terminado pulido · Espesor 2 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://es.kjlquartzstone.com/uploads/202134271/arctic-white-quartz38406250198.jpg",
+    "categoria": "Cuarzo"
+  },
+  {
+    "nombre": "Donatello",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Donatello.jpeg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Maorí",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Maor%C3%AD.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Mont Blanc",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Mont%20Blanc.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Negresco",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Negresco.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Silver White",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Silver%20White.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Spring Falls",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Spring%20Falls.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Taj Mahal",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Taj%20Mahal.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Verde Gaya",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Verde%20Gaya.jpg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Iceland",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Iceland.jpeg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Ijen Blue",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Ijen%20Blue.jpeg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Lucent",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Lucent.jpeg",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Matarazzo",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Matarazzo.png",
+    "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Porcelánico Calacatta",
+    "descripcion": "Terminado satinado · Espesor 12 mm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://image.architonic.com/pro2-3/20116419/calacata-gold-120x120-pro-b-arcit18.jpg",
+    "categoria": "Porcelánico"
+  },
+  {
+    "nombre": "Yellow Bamboo",
+    "descripcion": "Terminado mate · Espesor 3 cm",
+    "precioUnidad": "Por m²",
+    "imagen": "https://artequartz.net/img/secciones/cuarcita/Yellow%20Bamboo.png",
+    "categoria": "Cuarcita"
   }
 ]
