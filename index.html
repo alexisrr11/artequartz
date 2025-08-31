@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Marmolería — Catálogo</title>
   <meta name="color-scheme" content="light dark" />
+  <link rel="icon" href="./images/favicon.png" type="image/png">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <script src="https://cdn.tailwindcss.com"></script>
   <script type="module" src="./index.js"></script>
   <script type="module" src="./productos.js"></script>
   <style>
-    /* Evita el salto al ocultar la barra de scroll */
     html {
       scroll-behavior: smooth;
     }
@@ -29,7 +29,13 @@
 
     <nav class="absolute top-0 left-0 right-0 z-20">
       <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="#" class="text-white font-semibold tracking-wide text-2xl">Marmolería Artequartz</a>
+        <a href="#" class="text-white font-semibold tracking-wide text-2xl">
+          <img 
+          src="./images/aq_blanco.png" 
+          alt="imgagen-artequartz"
+          class="h-20 md:h-28"
+          >
+        </a>
         <ul class="hidden md:flex items-center gap-6 text-white/90">
           <li><a class="hover:text-white" href="#productos">Productos</a></li>
           <li><a class="hover:text-white" href="#trabajos">Trabajos</a></li>
@@ -68,16 +74,16 @@
             class="inline-flex items-center justify-center rounded-2xl bg-white px-5 py-3 text-sm font-semibold text-neutral-900 shadow hover:bg-neutral-100">
             Ver catálogo
           </a>
-          <a href="https://www.instagram.com/martireanaliae?utm_source=qr&igsh=MWx3eWlobWZxaGY1cw==" target="_blank" rel="noopener"
+          <a href="https://www.instagram.com/martireanaliae?utm_source=qr&igsh=MWx3eWlobWZxaGY1cw==" target="_blank"
+            rel="noopener"
             class="inline-flex items-center justify-center rounded-2xl ring-1 ring-white/70 px-5 py-3 text-sm font-semibold text-white hover:bg-white/10">
-            Instagram
+            Ver Instagram
           </a>
-
         </div>
       </div>
     </div>
     <a href="https://wa.me/5491160567581?text=%C2%A1Hola!%20Estoy%20interesado%20en%20algunos%20materiales.%20%C2%BFPuedo%20hacerte%20una%20consulta?"
-    target="_blank" rel="noopener" class="fixed bottom-6 right-6 z-20">
+      target="_blank" rel="noopener" class="fixed bottom-6 right-6 z-20">
       <i class='bx bxl-whatsapp bg-green-500 rounded-full p-2 text-4xl'></i>
     </a>
 
@@ -108,14 +114,38 @@
               class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
               Cuarcita
             </button>
-            <button data-filter="Cuarzo"
-              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
-              Cuarzo
-            </button>
-            <button data-filter="Porcelánico"
-              class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
-              Porcelánico
-            </button>
+            <div class="relative inline-block">
+              <!-- Botón principal -->
+              <button id="cuarzoDropBtn"
+                class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
+                Cuarzo <i class='pl-1 pt-1 text-[8px] bx bxs-down-arrow'></i>
+              </button>
+              <div id="cuarzoDropContent"
+                class="absolute left-0 mt-2 w-40 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-700 rounded-lg shadow-lg hidden group-hover:block">
+                <button data-filter="Purastone"
+                  class="w-full text-left px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800">Purastone</button>
+                <button data-filter="Silestone"
+                  class="w-full text-left px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800">Silestone</button>
+              </div>
+            </div>
+
+            <div class="relative inline-block">
+              <!-- Botón principal -->
+              <button id="sintetizadoDropBtn"
+                class="inline-flex items-center rounded-full border border-neutral-300 dark:border-neutral-700 px-3 py-1 text-sm hover:bg-neutral-200 dark:hover:bg-neutral-800">
+                Sintetizado <i class='pl-1 pt-1 text-[8px] bx bxs-down-arrow'></i>
+              </button>
+              <div id="sintetizadoDropContent"
+                class="absolute left-0 mt-2 w-40 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-700 rounded-lg shadow-lg hidden group-hover:block">
+                <button data-filter="Purastone Prima"
+                  class="w-full text-left px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800">Purastone
+                  Prima</button>
+                <button data-filter="Neolith"
+                  class="w-full text-left px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800">Neolith</button>
+                <button data-filter="Dekton"
+                  class="w-full text-left px-4 py-2 text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800">Dekton</button>
+              </div>
+            </div>
             <button data-filter="all"
               class="inline-flex items-center rounded-full border border-blue-500 text-blue-500 px-3 py-1 text-sm hover:bg-blue-100 dark:hover:bg-blue-900">
               Todos
@@ -161,21 +191,17 @@
             así</a>
         </div>
         <div class="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          <img class="w-full h-64 object-cover rounded-2xl"
-            src="https://destefanomarmoles.com/wp-content/uploads/2023/02/021h_mesada_cocina_con_regrueso_en_perimetro-mamol_carrara-980x651.jpg"
+          <img class="w-full h-64 object-cover rounded-2xl" src="https://artequartz.net/img/galeria/1.jpg"
             alt="Mesada en mármol" />
-          <img class="w-full h-64 object-cover rounded-2xl"
-            src="https://img.freepik.com/fotos-premium/cocinas-isla-cuarzo_883586-29652.jpg"
+          <img class="w-full h-64 object-cover rounded-2xl" src="https://artequartz.net/img/galeria/2.jpg"
             alt="Isla de cocina en cuarzo" />
-          <img class="w-full h-64 object-cover rounded-2xl"
-            src="https://stonesizepanels.com/wp-content/uploads/2021/03/villa_x_1.jpg" alt="Revestimiento de baño" />
+          <img class="w-full h-64 object-cover rounded-2xl" src="https://artequartz.net/img/galeria/7.jpg"
+            alt="Revestimiento de baño" />
           <img class="w-full h-64 object-cover rounded-2xl"
             src="https://i.pinimg.com/736x/35/30/9d/35309d6284eeb1a3281d772b1b555709.jpg" alt="Escalera en granito" />
-          <img class="w-full h-64 object-cover rounded-2xl"
-            src="https://www.dmarmol.com.mx/wp-content/uploads/2023/08/COCINA-EBONY-CRISTAL-CON-MARMOL-ARABESCATO2.jpeg"
+          <img class="w-full h-64 object-cover rounded-2xl" src="https://artequartz.net/img/galeria/8.jpg"
             alt="Barra de cocina" />
-          <img class="w-full h-64 object-cover rounded-2xl"
-            src="https://tbmarmoresegranitos.com.br/wp-content/uploads/2023/02/TAMPO-EM-PORCELANATO-CALACATA-768x576.jpg"
+          <img class="w-full h-64 object-cover rounded-2xl" src="https://artequartz.net/img/galeria/10.jpg"
             alt="Mesada con bacha" />
         </div>
       </div>
@@ -211,7 +237,7 @@
                 rel="noopener">+54 9 11 6056-7581</a></p>
             <p><strong>Instagram:</strong> <a class="underline"
                 href="https://www.instagram.com/martireanaliae">@martireanaliae</a></p>
-            <p><strong>Horarios:</strong> Lun a Vie 9–18 h · Sáb 9–13 h</p>
+            <p><strong>Horarios:</strong> Lun a Vie 8–17 h · Sáb 8–12 h</p>
           </div>
 
           <form id="formWhatsApp" class="mt-8 space-y-4">
@@ -233,7 +259,7 @@
               <label class="block text-sm mb-1" for="mensaje">Detalles del trabajo</label>
               <textarea id="mensaje" name="mensaje" rows="4" required
                 class="w-full rounded-xl border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-3 py-2"
-                placeholder="Medidas aproximadas, Cantidad de material..."></textarea>
+                placeholder="Medidas aproximadas, Cantidad de material, Precios..."></textarea>
             </div>
             <button type="submit"
               class="inline-flex items-center justify-center rounded-2xl bg-neutral-900 text-white px-5 py-3 text-sm font-semibold hover:bg-neutral-800 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-200">
@@ -250,6 +276,14 @@
       </div>
     </section>
   </main>
+
+  <!-- Modal oculto -->
+  <div id="modalDos" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+    <div class="relative">
+      <img id="modal-img" src="" alt="Imagen ampliada" class="max-h-[80vh] rounded shadow-lg">
+      <button id="closeModalDos" class="absolute top-2 right-2 bg-white rounded-full px-3 py-1 text-black">X</button>
+    </div>
+  </div>
 
   <footer class="py-10 border-t border-neutral-200 dark:border-neutral-800">
     <div

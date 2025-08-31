@@ -1,415 +1,715 @@
 [
   {
     "nombre": "Arabescato",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Arabescato.jpeg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Beige Sahara",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Beige%20Sahara.jpg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Blanco Royal",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Blanco_Royal.jpeg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Botticino",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Botticino.jpg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Carrara",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Carrara.jpg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Crema Marfil",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Crema%20Marfil.png",
     "categoria": "Mármol"
   },
   {
     "nombre": "Desert Brown",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Desert-Brown.jpg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Goflan Silver",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Goflan%20Silver.png",
     "categoria": "Mármol"
   },
   {
     "nombre": "Marron Imperial",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Marron%20Imperial.png",
     "categoria": "Mármol"
   },
   {
     "nombre": "Marrón Bosque",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Marr%C3%B3n%20Bosque.png",
     "categoria": "Mármol"
   },
   {
     "nombre": "Negro Marquina",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Negro%20Marquina.png",
     "categoria": "Mármol"
   },
   {
     "nombre": "Perlino Rosato",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Perlino%20Rosato.jpg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Travertino Agua",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Travertino%20Agua.jpg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Travertino Veta",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Travertino%20Veta.jpg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Tundra Grey",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Tundra%20Grey.jpg",
     "categoria": "Mármol"
   },
   {
     "nombre": "Verde Alpe",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Verde%20Alpe.png",
     "categoria": "Mármol"
   },
   {
     "nombre": "Verde Oriental",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/marmol/Verde%20Oriental.png",
     "categoria": "Mármol"
   },
   {
     "nombre": "Alpinus",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Alpinus.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Azul Labrador",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Azul%20Labrador.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Blanco Fortaleza",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Blanco%20Fortaleza.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Coffe Brown",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Coffe%20Brown.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Delicatus",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Delicatus.png",
     "categoria": "Granito"
   },
   {
     "nombre": "Granito Gris Perla",
-    "descripcion": "Terminado flameado · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://marmoles.mx/4242-superlarge_default/granito_gris_oxford_flameado_60x60x15.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Gris Mara",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Gris%20Mara.jpeg",
     "categoria": "Granito"
   },
   {
     "nombre": "Gris Perla",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Gris%20Perla.png",
     "categoria": "Granito"
   },
   {
     "nombre": "Kashmir White",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Kashmir%20White.png",
     "categoria": "Granito"
   },
   {
     "nombre": "Negro Absoluto",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Negro%20Absoluto.png",
     "categoria": "Granito"
   },
   {
     "nombre": "Negro Boreal",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Negro%20Boreal.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Negro Brasil",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Negro%20Brasil.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Patagonia Golden",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Patagonia%20Golden.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Rosa del Salto",
-    "descripcion": "Terminado flameado · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Rosa%20del%20Salto.png",
     "categoria": "Granito"
   },
   {
     "nombre": "San Felipe",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/San%20Felipe.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "San Felipe",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/San%20Felipe.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Santa Cecilia",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Santa%20Cecilia.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Sierra chica",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Sierra%20chica.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Verde Ubatuba",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/granito/Verde%20Ubatuba.jpg",
     "categoria": "Granito"
   },
   {
     "nombre": "Allure",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Allure.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Amazonite",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Amazonite.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Avocatus",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Avocatus.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Blue Roma",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Blue%20Roma.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Bronzite",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Bronzite.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Black Salinas",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Black%20Salinas.png",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "CYGNUS",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/CYGNUS.png",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Cuarcita Adamantium",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Cuarcita%20Adamantium.jpg",
     "categoria": "Cuarcita"
   },
   {
-    "nombre": "Cuarzo Blanco Ártico",
-    "descripcion": "Terminado pulido · Espesor 2 cm",
-    "precioUnidad": "Por m²",
-    "imagen": "https://es.kjlquartzstone.com/uploads/202134271/arctic-white-quartz38406250198.jpg",
-    "categoria": "Cuarzo"
-  },
-  {
     "nombre": "Donatello",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Donatello.jpeg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Maorí",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Maor%C3%AD.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Mont Blanc",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Mont%20Blanc.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Negresco",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Negresco.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Silver White",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Silver%20White.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Spring Falls",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Spring%20Falls.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Taj Mahal",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Taj%20Mahal.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Verde Gaya",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Verde%20Gaya.jpg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Iceland",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Iceland.jpeg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Ijen Blue",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Ijen%20Blue.jpeg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Lucent",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Lucent.jpeg",
     "categoria": "Cuarcita"
   },
   {
     "nombre": "Matarazzo",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Matarazzo.png",
     "categoria": "Cuarcita"
   },
   {
-    "nombre": "Porcelánico Calacatta",
-    "descripcion": "Terminado satinado · Espesor 12 mm",
-    "precioUnidad": "Por m²",
-    "imagen": "https://image.architonic.com/pro2-3/20116419/calacata-gold-120x120-pro-b-arcit18.jpg",
-    "categoria": "Porcelánico"
-  },
-  {
     "nombre": "Yellow Bamboo",
-    "descripcion": "Terminado mate · Espesor 3 cm",
-    "precioUnidad": "Por m²",
     "imagen": "https://artequartz.net/img/secciones/cuarcita/Yellow%20Bamboo.png",
     "categoria": "Cuarcita"
+  },
+  {
+    "nombre": "Arabescat Cervaiole",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Arabescat%20Cervaiole.jpg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Arabescato Venatino",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Arabescato%20Venatino.jpg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Calacatta Antico",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Calacatta%20Antico.jpg",
+    "categoria": "Purastone"
+  }
+,{
+    "nombre": "Calacatta Borghini",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Calacatta%20Borghini.jpg",
+    "categoria": "Purastone"
+  }
+,
+  {
+    "nombre": "Calacatta Clasico",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Calacatta%20Clasico.jpg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Estatuario Venato",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Estatuario%20Venato.jpg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Invisible Grey",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Invisible%20Grey.jpg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Estatuario Venato",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Estatuario%20Venato.jpg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Invisible Grey",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Invisible%20Grey.jpg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Bianco Luxe",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Bianco%20Luxe.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Bianco Silver",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Bianco%20Silver.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Blanco Cana",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Blanco%20Cana.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Blanco Glitter",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Blanco%20Glitter.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Blanco Icon",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Blanco%20Icon.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Basaltina",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Basaltina.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Bianco Luxe",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Bianco%20Luxe.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Bianco Silver",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Bianco%20Silver.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Blanco Cana",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Blanco%20Cana.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Blanco Glitter",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Blanco%20Glitter.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Blanco Icon",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Blanco%20Icon.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Blanco Nube",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Blanco%20Nube.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Blanco Paloma",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Blanco%20Paloma.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Cemento",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Cemento.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Crema Prisa",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Crema%20Prisa.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Greyge",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Greyge.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Gris Fosil",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Gris%20Fosil.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Gris Topo",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Gris%20Topo.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Gris Zen",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Gris%20Zen.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Negro Betun",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Negro%20Betun.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Negro Glitter",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Negro%20Glitter.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Negro marquina",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Negro%20marquina.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Noir",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Noir.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Pura Concrete Dark",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Pura%20Concrete%20Dark.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Rojo Pura",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Rojo%20Pura.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Statuario",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Statuario.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Terrazo White",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Terrazo%20White.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Venatino",
+    "imagen": "https://artequartz.net/img/secciones/purastone/Venatino.jpeg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Brass Relish",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Brass%20Relish.jpg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Concrete Pulse",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Concrete%20Pulse.jpg",
+    "categoria": "Silestone"
+  }
+,{
+    "nombre": "Ethereal Dusk",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Ethereal%20Dusk.jpg",
+    "categoria": "Silestone"
+  }
+,
+  {
+    "nombre": "Lime Delight",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Lime%20Delight.jpg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Parisien Bleu",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Parisien%20Bleu.jpg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Romantic Ash",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Romantic%20Ash.jpg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Victorian Silver",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Victorian%20Silver.jpg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Aluminio Nube",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Aluminio%20Nube.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Blanco Norte",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Blanco%20Norte.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Blanco Zeus",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Blanco%20Zeus.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Cemento Spa",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Cemento%20Spa.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Eternal Calacatta Gold",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Eternal%20Calacatta%20Gold.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Eternal Charcoal",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Eternal%20Charcoal.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Eternal Marquina",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Eternal%20Marquina.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Eternal Pearl Jasmine",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Eternal%20Pearl%20Jasmine.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Gris Expo",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Gris%20Expo.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Lyra",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Lyra.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Marengo",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Marengo.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Negro Stellar",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Negro%20Stellar.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Negro Tebas",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Negro%20Tebas.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Niebla",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Niebla.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Noka",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Noka.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Pulsar",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Pulsar.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Rojo Eros Stellar",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Rojo%20Eros%20Stellar.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Rougui",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Rougui.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Unsui",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Unsui.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "White Storm",
+    "imagen": "https://artequartz.net/img/secciones/silestone/White%20Storm.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Yukon",
+    "imagen": "https://artequartz.net/img/secciones/silestone/Yukon.jpeg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Absolute Black",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Absolute%20Black.jpg",
+    "categoria": "Silestone"
+  },
+  {
+    "nombre": "Alpinus White",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Alpinus%20White.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Aurora",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Aurora.jpg",
+    "categoria": "Purastone Prima"
+  }
+,{
+    "nombre": "Bianco lasa",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Bianco%20lasa.jpg",
+    "categoria": "Purastone Prima"
+  }
+,
+  {
+    "nombre": "Brescia Imperiale",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Brescia%20Imperiale.jpg",
+    "categoria": "Purastone"
+  },
+  {
+    "nombre": "Bronze Armani",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Bronze%20Armani.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Calacatta Vagli",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Calacatta%20Vagli.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Desert Black",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Desert%20Black.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Macchia Vecchia",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Macchia%20Vecchia.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Metro Grey",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Metro%20Grey.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Metro cream",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Metro%20cream.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Onyx White",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Onyx%20White.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Ora Gold",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Ora%20Gold.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Taj mahal",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Taj%20mahal.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Travertino Navona",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Travertino%20Navona.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Tundra Dark",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Tundra%20Dark.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Verde selva",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/Verde%20selva.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "aria",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/aria.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "blanco zen",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/blanco%20zen.jpg",
+    "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "limestone",
+    "imagen": "https://artequartz.net/img/secciones/puraprima/limestone.jpg",
+    "categoria": "Purastone Prima"
   }
 ]

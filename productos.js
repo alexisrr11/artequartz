@@ -22,7 +22,7 @@ async function cargarProductos(filtro = "all") {
       // Título
       const titulo = document.createElement("h2");
       titulo.textContent = categoria;
-      titulo.className = "text-2xl md:text-3xl font-bold mt-10 mb-6";
+      titulo.className = "text-3xl md:text-4xl font-bold mt-10 mb-6 text-center";
       contenedor.appendChild(titulo);
 
       // Grid
@@ -40,9 +40,8 @@ async function cargarProductos(filtro = "all") {
           </div>
           <div class="p-4">
             <h3 class="font-semibold">${prod.nombre}</h3>
-            <p class="text-sm text-neutral-600 dark:text-neutral-400">${prod.descripcion}</p>
+            <h4>(${prod.categoria})</h4>
             <div class="mt-3 flex items-center justify-between">
-              <span class="text-sm text-neutral-500">${prod.precioUnidad}</span>
               <a href="#contacto" class="btn-consultar text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline" data-nombre="${prod.nombre}">Consultar</a>
             </div>
           </div>
