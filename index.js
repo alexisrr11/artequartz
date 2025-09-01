@@ -32,6 +32,15 @@ function dropDown(btn, drop) {
         // Abrir/cerrar el actual
         drop.classList.toggle("hidden");
     });
+
+    // Cerrar si se hace click fuera
+    document.addEventListener("click", (e) => {
+        allDropdowns.forEach(d => {
+            if (!d.contains(e.target) && e.target !== cuarzoDropBtn && e.target !== sintetizadoDropBtn) {
+                d.classList.add("hidden");
+            }
+        });
+    });
 }
 
 dropDown(cuarzoDropBtn, cuarzodropContent);
