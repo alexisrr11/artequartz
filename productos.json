@@ -711,5 +711,440 @@
     "nombre": "limestone",
     "imagen": "https://artequartz.net/img/secciones/puraprima/limestone.jpg",
     "categoria": "Purastone Prima"
+  },
+  {
+    "nombre": "Abu Dhabi White",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Abu%20Dhabi%20White.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Artic White",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Artic%20White.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Basalt Grey",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Basalt_Grey.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Beton",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Beton.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Black Obsession",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Black_Obsession.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Calacatta C01",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Calacatta%20C01.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Calacatta Luxe",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Calacatta%20Luxe.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Calatorao",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Calatorao.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Cement",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Cement.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Ceppo Di Gres",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Ceppo%20Di%20Gres.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Himalaya Crystal",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Himalaya%20Crystal.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Iron Corten",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Iron%20Corten.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Iron Frost",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Iron%20Frost.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Iron Grey",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Iron_Grey.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Just White",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Just_White.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Krater",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Krater.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Layla",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Layla.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Mont Blanc",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Mont%20Blanc.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Nero Zimbabwe",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Nero%20Zimbabwe.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "New York",
+    "imagen": "https://artequartz.net/img/secciones/neolith/New%20York.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Perla",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Perla.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Pierre Blue",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Pierre_Blue.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Pietra Di Luna",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Pietra%20Di%20Luna.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Pietra Di Piombo",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Pietra%20Di%20Piombo.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Pietra Di Osso",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Pietra_Di_Osso.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Retrostone",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Retrostone.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Summer Dala",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Summer_Dala.jpg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Alexandra",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Alexandra.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Artisan",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Artisan.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Barro",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Barro.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Basalt Black",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Basalt_Black.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Calacatta Roma",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Calacatta%20Roma.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Estatuario",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Estatuario.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Ignea",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Ignea.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Nero",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Nero.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Niagara",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Niagara.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Rapolano",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Rapolano.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Strata Argentum",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Strata%20Argentum.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "White Sands",
+    "imagen": "https://artequartz.net/img/secciones/neolith/WhiteSands.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Zaha Stone",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Zaha%20Stone.jpeg",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Amazonico",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Amazonico.png",
+    "categoria": "Neolith"
+  },
+  {
+    "nombre": "Awake",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Awake.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Daze",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Daze.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Kira",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Kira.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Lauren",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Laurent.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Morpheus",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Morpheus.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Nebbia",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Nebbia.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Neural",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Neural.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Rem",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Rem.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Salina",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Salina.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Soke",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Soke.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Somnia",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Somnia.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Valterra",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Valterra.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Aura 15",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Aura%2015.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Bergen",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Bergen.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Bromo",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Bromo.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Danae",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Danae.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Domoos",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Domoos.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Entzo",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Entzo.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Fiord",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Fiord.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "New York",
+    "imagen": "https://artequartz.net/img/secciones/neolith/New%20York.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Perla",
+    "imagen": "https://artequartz.net/img/secciones/neolith/Perla.jpg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Fossil",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Fossil.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Halo",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Halo.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Kairos",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Kairos.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Kelya",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Kelya.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Keon",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Keon.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Kira",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Kira.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Korso",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Korso.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Kovic",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Kovic.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Kreta",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Kreta.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Nayla",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Nayla.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Nilium",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Nilium.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Opera",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Opera.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Radium",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Radium.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Sesea",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Sesea.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Sirius",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Sirius.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Sirocco",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Sirocco.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Sogne",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Sogne.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Soke",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Soke.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Spectra",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Spectra.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Splendro",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Splendro.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Splendro",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Splendro.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Trillium",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Trillium.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Vera",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Vera.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "Vera",
+    "imagen": "https://artequartz.net/img/secciones/dekton/Zenith.jpeg",
+    "categoria": "Dekton"
+  },
+  {
+    "nombre": "olimpo",
+    "imagen": "https://artequartz.net/img/secciones/dekton/olimpo.jpeg",
+    "categoria": "Dekton"
   }
 ]
